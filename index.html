@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Échecs - Tous les Pions</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    header {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 80px;
+    }
+
+    .intro {
+      text-align: center;
+    }
+
+    .image-texte {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .image-texte img {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    .image-texte .texte {
+      flex: 1;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      margin-top: 100px;
+    }
+
+    a.descendre {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Découvre les pièces du jeu d'échecs</h1>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>Introduction aux pions et pièces</h2>
+      <p>Ce guide te présente les pièces essentielles du jeu d'échecs et leur rôle. Apprends à les connaître pour mieux jouer !</p>
+      <a class="descendre" href="#pion">↓ Descendre</a>
+    </section>
+
+    <section id="pion" class="image-texte">
+      <img src="https://i.ibb.co/hCh7ZKf/pion.png" alt="Pion">
+      <div class="texte">
+        <h3>Le Pion</h3>
+        <p>Le pion avance tout droit mais capture en diagonale. Il peut se promouvoir en une autre pièce s'il atteint le bout du plateau.</p>
+      </div>
+    </section>
+
+    <section class="image-texte">
+      <img src="https://i.ibb.co/gFQKZz8/tour.png" alt="Tour">
+      <div class="texte">
+        <h3>La Tour</h3>
+        <p>La tour se déplace en ligne droite, horizontalement ou verticalement. Elle est puissante dans les lignes ouvertes.</p>
+      </div>
+    </section>
+
+    <section class="image-texte">
+      <img src="https://i.ibb.co/2ygM54c/cavalier.png" alt="Cavalier">
+      <div class="texte">
+        <h3>Le Cavalier</h3>
+        <p>Le cavalier se déplace en "L" et peut sauter au-dessus d'autres pièces. Il est redoutable dans les positions fermées.</p>
+      </div>
+    </section>
+
+    <section class="image-texte">
+      <img src="https://i.ibb.co/X3PcN6z/fou.png" alt="Fou">
+      <div class="texte">
+        <h3>Le Fou</h3>
+        <p>Le fou se déplace uniquement en diagonale. Il y a un fou de case claire et un de case sombre.</p>
+      </div>
+    </section>
+
+    <section class="image-texte">
+      <img src="https://i.ibb.co/2sN0LCZ/dame.png" alt="Dame">
+      <div class="texte">
+        <h3>La Dame</h3>
+        <p>La dame est la pièce la plus puissante. Elle peut se déplacer en ligne droite ou en diagonale autant de cases qu'elle le souhaite.</p>
+      </div>
+    </section>
+
+    <section class="image-texte">
+      <img src="https://i.ibb.co/BzqT2hf/roi.png" alt="Roi">
+      <div class="texte">
+        <h3>Le Roi</h3>
+        <p>Le roi est la pièce la plus importante. S'il est en échec et mat, la partie est terminée. Il se déplace d'une case dans toutes les directions.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 - Tous droits réservés
+  </footer>
+</body>
+</html>
